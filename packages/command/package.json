@@ -1,6 +1,6 @@
 {
   "name": "@qqlwwq/command",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "common commander class",
   "author": "1959377950 <1959377950@qq.com>",
   "homepage": "",
@@ -20,7 +20,7 @@
     "test": "node ./__tests__/command.test.js"
   },
   "dependencies": {
-    "@qqlwwq/utils": "^1.0.0"
+    "@qqlwwq/utils": "^1.0.1"
   },
   "type": "module",
   "gitHead": "a7b652efa9902824a8318811385bf555ca2a661a"
