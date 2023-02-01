@@ -1,6 +1,6 @@
 {
   "name": "@qqlwwq/cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "qql cli",
   "author": "1959377950 <1959377950@qq.com>",
   "homepage": "",
@@ -21,8 +21,8 @@
     "test": "jest"
   },
   "dependencies": {
-    "@qqlwwq/init": "^1.0.1",
-    "@qqlwwq/utils": "^1.0.1",
+    "@qqlwwq/init": "^1.0.3",
+    "@qqlwwq/utils": "^1.0.3",
     "chalk": "^5.2.0",
     "commander": "^10.0.0",
     "dirname-filename-esm": "^1.1.1",
