@@ -8,3 +8,4 @@
 57 error     at handlePromise (D:\workCode\FrontEndCode\CLI开发\命令行编程\first-cli\node_modules\execa\index.js:118:26)
 57 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
 57 error     at async Promise.all (index 0)
+  
