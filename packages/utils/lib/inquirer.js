@@ -1,7 +1,17 @@
 // @ts-nocheck
 import inquirer from 'inquirer'
 
-function make({ choices, defaultValue, message='请选择', type = 'list', require = true, mask = '*', validate, pageSize, loop }) {
+function make({
+  choices,
+  defaultValue,
+  message = '请选择',
+  type = 'list',
+  require = true,
+  mask = '*',
+  validate,
+  pageSize,
+  loop,
+}) {
   const options = {
     name: 'name',
     default: defaultValue,
@@ -20,12 +30,19 @@ function make({ choices, defaultValue, message='请选择', type = 'list', requi
 }
 // list选择
 export function makeList(params) {
-  return make({...params})
+  return make({ ...params })
 }
 // 输入框
 export function makeInput(params) {
   return make({
     type: 'input',
-    ...params
+    ...params,
+  })
+}
+// 密码框
+export function makePassword(params) {
+  return make({
+    type: 'password',
+    ...params,
   })
 }

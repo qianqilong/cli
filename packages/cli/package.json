@@ -18,10 +18,12 @@
     "bin"
   ],
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "cli": "qqlcli"
   },
   "dependencies": {
     "@qqlwwq/init": "^1.0.3",
+    "@qqlwwq/install": "^1.0.3",
     "@qqlwwq/utils": "^1.0.3",
     "chalk": "^5.2.0",
     "commander": "^10.0.0",

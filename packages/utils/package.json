@@ -21,8 +21,11 @@
   },
   "dependencies": {
     "axios": "^1.2.6",
+    "execa": "^6.1.0",
+    "fs-extra": "^11.1.0",
     "inquirer": "^9.1.4",
-    "npmlog": "^7.0.1"
+    "npmlog": "^7.0.1",
+    "path-exists": "^5.0.0"
   },
   "type": "module",
   "gitHead": "a7b652efa9902824a8318811385bf555ca2a661a"
