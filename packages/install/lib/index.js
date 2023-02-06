@@ -1,6 +1,6 @@
 // @ts-nocheck vuex-cli-webpack
 import Command from '@qqlwwq/command'
-import { log, Github, makeList, Gitee, getGitPlatform, makeInput, printErrorLog } from '@qqlwwq/utils'
+import { log, makeList, makeInput, printErrorLog, initGenerateGitAPI } from '@qqlwwq/utils'
 import ora from 'ora'
 
 const PREV_PAGE = '${prev_page}'
@@ -73,23 +73,10 @@ class InstallCommand extends Command {
   }
   // 选择平台
   async generateGitAPI() {
-    let platform = getGitPlatform()
-    if (!platform) {
-      platform = await makeList({
-        message: '请选择Git平台',
-        choices: [
-          { name: 'GitHub', value: 'github' },
-          { name: 'Gitee', value: 'gitee' },
-        ],
-      })
-    }
-    log.verbose('platform', platform)
-    const gitAPI = platform === 'github' ? new Github() : new Gitee()
+    const { platform, gitAPI } = await initGenerateGitAPI()
     this.gitAPI = gitAPI
     // 存储类型
     gitAPI.savePlatform(platform)
-    // 初始化
-    await gitAPI.init()
   }
   // 搜索
   async searchGitAPI() {

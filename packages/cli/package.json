@@ -22,8 +22,10 @@
     "cli": "qqlcli"
   },
   "dependencies": {
+    "@qqlwwq/commit": "^1.0.4",
     "@qqlwwq/init": "^1.0.4",
     "@qqlwwq/install": "^1.0.4",
+    "@qqlwwq/lint": "^1.0.4",
     "@qqlwwq/utils": "^1.0.4",
     "chalk": "^5.2.0",
     "commander": "^10.0.0",
