@@ -1,6 +1,6 @@
 {
   "name": "@qqlwwq/commit",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "> TODO: description",
   "author": "1959377950 <1959377950@qq.com>",
   "homepage": "https://github.com/qianqilong/cli#readme",
@@ -28,8 +28,8 @@
   },
   "type": "module",
   "dependencies": {
-    "@qqlwwq/command": "^1.0.4",
-    "@qqlwwq/utils": "^1.0.4",
+    "@qqlwwq/command": "^1.0.5",
+    "@qqlwwq/utils": "^1.0.5",
     "fs-extra": "^11.1.0",
     "semver": "^7.3.8",
     "simple-git": "^3.16.0"

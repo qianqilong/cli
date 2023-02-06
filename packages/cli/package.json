@@ -1,6 +1,6 @@
 {
   "name": "@qqlwwq/cli",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "qql cli",
   "author": "1959377950 <1959377950@qq.com>",
   "homepage": "",
@@ -22,11 +22,11 @@
     "cli": "qqlcli"
   },
   "dependencies": {
-    "@qqlwwq/commit": "^1.0.4",
-    "@qqlwwq/init": "^1.0.4",
-    "@qqlwwq/install": "^1.0.4",
-    "@qqlwwq/lint": "^1.0.4",
-    "@qqlwwq/utils": "^1.0.4",
+    "@qqlwwq/commit": "^1.0.5",
+    "@qqlwwq/init": "^1.0.5",
+    "@qqlwwq/install": "^1.0.5",
+    "@qqlwwq/lint": "^1.0.5",
+    "@qqlwwq/utils": "^1.0.5",
     "chalk": "^5.2.0",
     "commander": "^10.0.0",
     "dirname-filename-esm": "^1.1.1",
